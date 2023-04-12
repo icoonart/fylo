@@ -7,18 +7,15 @@
 body{
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-    width: 1440px;
     font-size: 16px;
 }
 
 .navbar{
-    /* border: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
-    width: 1563px;
-    margin-left: 15px;
+    width: 100vw;
     z-index: index 1;
 }
 
@@ -28,7 +25,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 230px;
-    /* margin-left: 100px; */
+    margin-right: 100px;
 }
 
 .logo{
@@ -37,24 +34,23 @@ body{
 }
 
 .allover{
-    /* border: 1px solid red; */
     margin-top: 80px;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 120px;
     line-height: 1.2;
 }
 
 .cure{
     display: flex;
-    height: 450px;
+    height: 400px;
+    margin-left: 15%;
 }
 
 
 .secure{
-    /* border: 1px solid peru; */
-    margin-left: 270px;
+    margin-left: 6%;
 }
 
 
@@ -93,20 +89,16 @@ body{
 }
 
 .curve{
-    width: 1582px;
-    margin-top: 60px;
+    width: 100vw;
+    margin-top: 15%;
     color:hsla(0, 10%, 94%, 0.651);
 }
 
 .productive{
-    /* border: 1px solid green; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding-top: 5px; */
     background:#f9f8fe;
-    width: 1582px;
-    
 }
 
 .product{
@@ -115,9 +107,9 @@ body{
 }
 
 .stay{
-    /* border: 1px solid purple; */
     margin-bottom: 280px;
-    margin-left: 200px;
+    margin-left: 80px;
+    width:70vw;
 }
 
 .stay h3{
@@ -146,7 +138,6 @@ body{
     color: hsl(170, 45%, 43%);
     text-decoration: underline;
     text-underline-position: auto;
-    /* text-decoration-line: inherit; */
 }
 
 .stay h4:hover{
@@ -160,14 +151,15 @@ body{
 }
 
 .witness{
-    /* border: 1px solid rosybrown; */
     width: 380px;
     position: relative;
     position: absolute;
-    top: 1000px;
+    top: 158%;
+    right: 63%;
     margin-left: 200px;
     background: white;
     border-radius: 7px;
+    box-shadow: 1px 1px 5px rgb(202, 198, 198);
 }
 
 .witness h4{
@@ -180,14 +172,12 @@ body{
 }
 
 .ava{
-    /* border: 1px solid red ; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
     width: 400px;
     margin-left: 40px;
-    /* box-shadow: black 1px; */
 }
 
 .ceo{
@@ -212,12 +202,12 @@ body{
 }
 
 .early{
-    /* border: 1px solid orangered; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 1582px;
+    width: 100vw;
     height: 200px;
+    margin-top: 10%;
     background: hsl(239, 25%, 43%);
 }
 
@@ -258,13 +248,12 @@ body{
 }
 
 .footer{
-    /* border: 1px solid greenyellow; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
     background: hsl(243, 87%, 12%);
-    width: 1582px;
+    width: 100vw;
     height: 300px;
 }
 
