@@ -20,12 +20,11 @@ body{
 }
 
 .fts{
-    border: 1px soild green;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 230px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 
 .logo{
@@ -324,4 +323,100 @@ body{
 
 .con{
     margin-top: 95px;
+}
+
+@media screen and (max-width:375px) {
+
+    .navbar {
+        border: 2px soild red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+        width: 800px;
+        z-index: index 1;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .allover{
+        margin-top: 80px;
+        display: grid;
+        align-items: center;
+        line-height: 1.2;
+        margin-left: 35%;
+    }
+
+    .cure{
+        height: 370px;
+        order: 0;
+    }
+
+    .secure{
+        margin-top: 5%;
+        margin-left: 10%;
+        order: 1;
+    }
+
+    .productive{
+        width: 854px;
+        display: grid;
+        align-items: center;
+        justify-content: space-between;
+        background:#f9f8fe;
+    }
+
+    .product{
+        height: 455px;
+        order: 0;
+        margin-left: 20%;
+    }
+    
+    .stay{
+        margin-top: 10%;
+        margin-bottom: 280px;
+        margin-left: 25%;
+        width: 600px;
+        order:1;
+    }
+
+    .curve{
+        width: 854px;
+        margin-top: 15%;
+        color:hsla(0, 10%, 94%, 0.651);
+    }
+
+    .witness{
+        width: 380px;
+        position: relative;
+        position: absolute;
+        top: 240%;
+        left: 20%;
+        background: white;
+        border-radius: 7px;
+        box-shadow: 1px 1px 5px rgb(202, 198, 198);
+    }
+
+    .seehow{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+
+    .early{
+        display: grid;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 854px;
+        height: 200px;
+        margin-top: 10%;
+        background: hsl(239, 25%, 43%);
+    }
+
+    .info button{
+        width: 300px;
+    }
+
+    .footer{
+        width: 854px;
+    }
 }
